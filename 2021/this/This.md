@@ -19,7 +19,7 @@ MDN的解释如下：
 
 当我们在浏览器的全局环境中执行this，那么这个this就等同于window
 
-![Untitled](this/image1.png)
+![Untitled](image1.png)
 
 ## 函数上下文
 
@@ -29,11 +29,11 @@ MDN的解释如下：
 
 [https://blog.csdn.net/nullccc/article/details/108931703](https://blog.csdn.net/nullccc/article/details/108931703)
 
-![Untitled](this/image2.png)
+![Untitled](image2.png)
 
 可以看到在浏览器中，如果什么都不做，那么在全局环境中这个函数的this就是指向window，如果我们通过apply和call改变了当前this的指向，那么this就指向我们特定给的值
 
-![Untitled](this/image3.png)
+![Untitled](image3.png)
 
 ## 改变this指向的三种方法
 
